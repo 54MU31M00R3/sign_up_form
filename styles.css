@@ -53,12 +53,8 @@ body {
 .logo-text {
     align-self: center;
     font-family: nordic, Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 160px;
+    font-size: 10vw;
     color: white;
-}
-#right-side {
-    width: 65%;
-    background-color: white;
 }
 .credits {
     position: absolute;
@@ -66,4 +62,26 @@ body {
     color: white;
     width: 100%;
     text-align: center;
+}
+#right-side {
+    width: 65%;
+    background-color: white;
+}
+.intro-container {
+    height: 37%;
+}
+.form-container {
+    height: 63%;
+}
+.form-text {
+    height: 10%;
+}
+form {
+    height: 90%
+}
+.top-form {
+    height: 43%;
+}
+.bottom-form {
+    height: 20%;
 }
