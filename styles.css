@@ -69,6 +69,7 @@ body {
 }
 .intro-container {
     height: 37%;
+    background-color: rgba(253, 251, 251, 0.999);
 }
 .form-container {
     height: 63%;
@@ -81,7 +82,14 @@ form {
 }
 .top-form {
     height: 43%;
+    display: flex;
 }
 .bottom-form {
-    height: 20%;
+    height: 57%;
+    background-color: rgba(253, 251, 251, 0.999);
+
+}
+.form-input {
+    display: flex;
+    flex-direction: column;
 }
