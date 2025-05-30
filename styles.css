@@ -2,41 +2,48 @@
     font-family: nordic;
     src: url(./assets/Norse-Bold.otf);
 }
+
 body {
-    margin: 0px;
-    min-height: 100vh;
+    margin: auto;
     display: flex;
 }
+
 #left-side {
-    width: 35%;
+    width: 34%;
     height: 100vh;
     display: flex;
 }
+
 .background-image img {
-    width: auto;
-    height: 100%;
-    overflow: hidden;
+    width: inherit;
+    height: auto;
+    max-height: 100%;
 }
+
 .floater-container{
-    top: 25%;
+    top: 20%;
     position: absolute;
     display: flex;
-    width: 35%;
-    height: 75%;
+    width: inherit;
+    height: 80%;
     justify-content: space-between;
 }
+
 .logo-floater{
     position: absolute;
     width: 100%;
     height: 40%;
 }
+
 .floater-background {
+    margin: 0px;
     position: absolute;
     width: 100%;
     height: 40%;
     background-color: black;
     opacity: 25%;
 }
+
 .logo-container {
     position: absolute;
     width: 100%;
@@ -44,18 +51,22 @@ body {
     display: flex;
     justify-content: center;
 }
+
 .left-text {
     display: flex;
 }
+
 .logo {
     display: flex;
 }
+
 .logo-text {
     align-self: center;
     font-family: nordic, Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 10vw;
+    font-size: 6vw;
     color: white;
 }
+
 .credits {
     position: absolute;
     bottom: 20px;
@@ -63,33 +74,81 @@ body {
     width: 100%;
     text-align: center;
 }
+
 #right-side {
     width: 65%;
+    height: 100vh;
     background-color: white;
+    margin: 0px;
 }
+
 .intro-container {
-    height: 37%;
+    height: 32%;
     background-color: rgba(253, 251, 251, 0.999);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    gap: 22px;
+    padding: 2.5%;
 }
+
 .form-container {
-    height: 63%;
+    height: 58%;
+    padding-left: 2.5%;
+    padding-top: 2%;
 }
+
 .form-text {
     height: 10%;
 }
+
 form {
-    height: 90%
+    height: 90%;
 }
+
 .top-form {
-    height: 43%;
+    height: 39.5%;
     display: flex;
+    gap: 15%;
+    padding-bottom: 2.5%;
 }
+
 .bottom-form {
     height: 57%;
     background-color: rgba(253, 251, 251, 0.999);
-
 }
+
 .form-input {
     display: flex;
+    flex-direction: column;
+}
+
+.intro-text {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.2vw;
+    font-weight: 900;
+}
+
+form label, form input {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1vw;
+}
+
+form input {
+    padding: 3%;
+    border-radius: 5px;
+    border-color: #E5E7EB;
+    border-style: solid;
+    width: 250px;
+}
+
+.form-text {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.2vw;
+    font-weight: 900;
+}
+.left-form, .right-form {
+    display: flex;
+    gap: 2.5%;
     flex-direction: column;
 }
